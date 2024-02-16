@@ -66,7 +66,7 @@ class Categoria extends Conectar
     }
 
     // Borra datos en la tabla tm_categoria
-    public function delete_categoria($cat_id)
+    public function _categorideletea($cat_id)
     {
         $conectar = parent::conexion();
         parent::set_names();
